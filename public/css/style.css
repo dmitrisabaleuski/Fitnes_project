@@ -1,0 +1,97 @@
+body{
+    margin: 0 auto;
+    text-align: center;
+}
+h1, h2, p, ul, li{
+    padding: 0;
+    margin: 0;
+}
+ul{
+    list-style: none;
+}
+
+/*HEADER START*/
+
+header{
+    /*background-image: url('https://via.placeholder.com/2000');
+    background-attachment: fixed;*/
+    width: 100%;
+}
+
+/*HEADER END*/
+
+/*CONTENT START*/
+
+.top_block{
+    display: flex;
+}
+.logo{
+    width: 20%;
+}
+.logo>img{
+    width: 100%;
+}
+.nav{
+    width: 60%;
+    padding: 0 10% 0 10%;
+}
+nav>ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.tel{
+    width: 20%;
+}
+.fitnes_type_block{
+    display: flex;
+}
+.block_online, .block_offline{
+    width: 34%;
+    height: 100%;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: all 0.7s ease-in-out;
+}
+.main_img_block{
+    backface-visibility: hidden;
+    height: 100%;
+    width: 100%;
+}
+.turn_side_content{
+    transform: rotateY(180deg);
+}
+.block_online:hover, .block_offline:hover{
+    transform: rotateY(180deg);
+}
+.block_online img, .block_offline img{
+    width: 100%;
+    height: auto;
+}
+.feedback_form form{
+    display: inline-grid;
+}
+.feedback_form, .pricelist{
+    padding: 5% 0 5% 0;
+}
+
+/*CONTENT END*/
+
+/*FOOTER START*/
+
+footer{
+    background-image: url('https://via.placeholder.com/2000');
+    background-attachment: fixed;
+    height: 10vh;
+    width: 100%;
+}
+footer>nav{
+    padding: 0 20% 0 20%;
+}
+footer>nav>ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/*FOOTER END*/

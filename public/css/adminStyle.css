@@ -1,0 +1,200 @@
+body {
+    margin: 0 auto;
+    text-align: center;
+    font-family: 'Baloo 2', cursive;
+}
+
+h1, h2, p, ul, li {
+    padding: 0;
+    margin: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
+/* ADMIN HEADER */
+
+#admin-header {
+    display: flex;
+}
+
+#admin-header > div {
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.admin-page-back-to-main {
+    width: 10%;
+    padding-left: 2%;
+}
+
+.admin-page-back-to-main > a:hover {
+    color: #b6a6a6;
+}
+
+.admin-page-title {
+    width: 80%;
+}
+
+.admin-page-user {
+    width: 10%;
+    padding-right: 2%;
+}
+
+.admin-page-user > a {
+    color: #1fb031;
+}
+
+.admin-page-user > a:hover {
+    color: #47f65d;
+}
+
+/* ADMIN BODY */
+.content > nav a:hover {
+    color: #272bb2;
+}
+
+/* USER PROFILE PAGE */
+.profile-content {
+    display: flex;
+}
+
+.user-profile-avatar {
+    width: 20%;
+}
+
+.user-profile-content {
+    width: 80%;
+}
+
+.user-profile-content, .user-profile-avatar {
+    text-align: left;
+    padding: 0% 2% 2% 2%;
+}
+
+.default_avatar {
+    display: flex;
+}
+
+.default_avatar input {
+    width: 10%;
+}
+
+.default_avatar label {
+    width: 90%;
+}
+
+.user-profile-avatar img {
+    width: 100%;
+}
+
+.user-profile-content > ul > li {
+    border: 2px solid;
+
+}
+
+.user-profile-content li {
+    display: flex;
+    padding: 1%;
+}
+
+.user-profile-content li p {
+    color: #d513c6;
+    font-weight: 800;
+}
+
+.user-profile-content li span {
+    margin-left: 2%;
+}
+
+/* USER PROFILE EDIT PAGE */
+#userProfileEdit {
+    display: flex;
+}
+
+.edit-profile-content .user-profile-avatar {
+    width: 30%;
+}
+
+.user-profile-avatar>input {
+    width: 100% !important;
+}
+
+.edit-profile-content input, .edit-profile-content select {
+    width: 30%;
+    margin-left: 2%;
+}
+
+/* ALL USERS PAGE */
+.all-users-page-content > ul {
+    display: block;
+}
+
+.all-users-page-content > ul > li {
+    padding: 0% 1% 0% 1%;
+    border: 1px solid;
+}
+
+.all-users-page-content > ul:first-child {
+    border-top: 1px solid;
+}
+
+.all-users-page-content > ul:last-child {
+    border-bottom: 1px solid;
+}
+
+.all-users-page-content > ul > li > ul {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.all-users-page-content > ul > li > ul > li {
+    width: 15%;
+    padding: 1% 0% 1% 0%;
+    border-right: 2px solid;
+}
+
+.all-users-page-content > ul > li > ul > li:last-child {
+    border-right: 0px solid;
+}
+
+.all-users-page-content > ul > li > ul > li .edit {
+    color: #ffaf45;
+}
+
+.all-users-page-content > ul > li > ul > li .edit:hover, .all-users-page-content > ul > li > ul > li .delete:hover {
+    opacity: 0.6;
+}
+
+.all-users-page-content > ul > li > ul > li .delete {
+    color: red;
+}
+
+.users-pagination {
+    padding: 2% 5% 0 5%;
+}
+
+.users-pagination .pagination {
+    display: inline-flex;
+}
+
+.users-pagination .pagination > li {
+    margin: 0 20% 0 20%;
+    cursor: pointer;
+}
+
+.users-pagination .pagination > li > span:hover, .users-pagination .pagination > li > a:hover {
+    color: #ffaf45;
+}
+
+.users-pagination .pagination .active {
+    color: #1fb031;
+}
+
+/* ADMIN FOOTER*/
